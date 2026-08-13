@@ -41,7 +41,7 @@ jobs:
         ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         EXCLUDED: ${{ secrets.EXCLUDED }}
-        EXCLUDED_LANGS: "html,css,typescript,python,vue,zig,xslt,handlebars,stylus,pug,scss"
+        EXCLUDED_LANGS: "html,css,typescript,python,vue,zig,xslt,handlebars,stylus,pug,scss,gherkin"
         EXCLUDE_FORKED_REPOS: true
 
     # Commit all changed files to the repository
